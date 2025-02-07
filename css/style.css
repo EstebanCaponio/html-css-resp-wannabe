@@ -135,3 +135,47 @@ img {
         max-width: 100%;
     }
 }
+
+@media screen and (max-width: 480px) {
+    section div.container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section div.row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons div.col {
+        width: auto;
+        margin-bottom: 60px;
+    }
+
+    .steps {
+        margin: 0px;
+        padding-bottom: 0px;
+    }
+
+    .steps .row .col {
+        width: auto;
+    }
+
+    .steps .card {
+        margin-bottom: 70px;
+    }
+
+    .why-us {
+        background-color: #222222;
+        margin-bottom: 0;
+        padding: 48px 0;
+    }
+
+    .why-us .row .col {
+        width: auto;
+    }
+
+    .why-us .row {
+        gap: 70px;
+    }
+}
